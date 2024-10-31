@@ -29,3 +29,14 @@ answer, including your reasoning, to this markdown file.
 I came across this page (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) while looking around in the for loop documentation (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) for any potential changes that could be made for graphs
 
 And this one (https://medium.com/@ging.m.louie/easy-javascript-implementation-of-a-graphs-adjacency-list-1a52f1bb9a5c) for how to make graphs in javascript using an adjacency list
+
+This (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys) was for how to get the nodes out of said list
+
+
+
+
+
+
+
+
+
