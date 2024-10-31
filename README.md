@@ -23,3 +23,7 @@ inefficient.
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+-----------------------------------------------------------------------------------------------
+
+I came across this page (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) while looking around in the for loop documentation (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) for any potential changes that could be made for graphs
