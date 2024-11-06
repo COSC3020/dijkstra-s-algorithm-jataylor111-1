@@ -30,6 +30,8 @@ I came across this page (https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 And this one (https://medium.com/@ging.m.louie/easy-javascript-implementation-of-a-graphs-adjacency-list-1a52f1bb9a5c) for how to make graphs in javascript using an adjacency list
 
+I came across this site (https://www.freecodecamp.org/news/how-to-remove-an-element-from-a-javascript-array-removing-a-specific-item-in-js/#heading-remove-an-element-of-a-certain-value-with-filter) while trying to get my function to remove a specific element from the "unvisited" array, other sites kept saying to use splice but I couldn't seem to make it work, this site recommended using filter instead.
+
 This (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys) was for how to get the nodes out of said list
 
 
