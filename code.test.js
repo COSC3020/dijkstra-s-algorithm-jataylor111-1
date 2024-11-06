@@ -1,6 +1,6 @@
 const fs = require('fs');
 const assert = require('assert');
-eval(fs.readFileSync('DijkstrasAlgorithm.js') + '');
+eval(fs.readFileSync('code.js') + '');
 
 // Empty Graph
 console.log("Test 1");
