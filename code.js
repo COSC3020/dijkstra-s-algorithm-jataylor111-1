@@ -26,11 +26,6 @@ function dijkstra(graph, sourceNode) {
             }
         }
 
-        // If currentNode is null, break out of the loop
-        if (currentNode === null) {
-            break;
-        }
-
         // Remove the currentNode from unvisited
         unvisited = unvisited.filter(node => node !== currentNode);
 
@@ -41,6 +36,12 @@ function dijkstra(graph, sourceNode) {
                 dist[neighbor] = newDist;
             }
         }
+
+        // I was having issues with an infinite While loop even after a solution has been found so I added a break condition
+        if (currentNode === null) {
+            break;
+        }
+        
     }
 
     return dist;
