@@ -26,7 +26,7 @@ answer, including your reasoning, to this markdown file.
 
 -----------------------------------------------------------------------------------------------
 
-My complexity should be $O(V^2)$
+My complexity should be $\Theta(V^2)$
 
 First, at line 12 there's a for loop that sets all the distances equal to Infinity.  This is based on the length of the unvisited nodes array so it'll be a complexity of V
 
@@ -36,9 +36,9 @@ After that we have a for loop that is once again based on the the number of node
 
 Finally I have a second for loop that is based on the edges, this one then will be a complexity of E
 
-So, the complexity is $O(V(V + E) + V))$ = $O(V^2 + VE + V)$
+So, the complexity is $\Theta(V(V + E) + V))$ = $\Theta(V^2 + VE + V)$
 
-And by removing lower order terms we get a final complexity of $O(V^2)$
+And by removing lower order terms we get a final complexity of $\Theta(V^2)$
 
 I came across this page (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) while looking around in the for loop documentation (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) for any potential changes that could be made for graphs
 
