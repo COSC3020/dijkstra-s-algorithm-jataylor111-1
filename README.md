@@ -23,3 +23,34 @@ inefficient.
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+-----------------------------------------------------------------------------------------------
+
+My complexity should be $\Theta(V^2)$
+
+First, at line 12 there's a for loop that sets all the distances equal to Infinity.  This is based on the length of the unvisited nodes array so it'll be a complexity of V
+
+Next we enter a while at 17, this will run until there are no more nodes in the "unvisited" array, this also has a complexity of V
+
+After that at line 22 we have a for loop that is once again based on the the number of nodes in the "unvisited" array, another V
+
+Finally on line 33 I have a second for loop that is based on the edges, this one then will be a complexity of E
+
+So, the complexity is $\Theta(V(V + E) + V))$ = $\Theta(V^2 + VE + V)$
+
+And by removing lower order terms we get a final complexity of $\Theta(V^2)$
+
+I came across this page (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) while looking around in the for loop documentation (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) for any potential changes that could be made for graphs
+
+And this one (https://medium.com/@ging.m.louie/easy-javascript-implementation-of-a-graphs-adjacency-list-1a52f1bb9a5c) for how to make graphs in javascript using an adjacency list
+
+I came across this site (https://www.freecodecamp.org/news/how-to-remove-an-element-from-a-javascript-array-removing-a-specific-item-in-js/#heading-remove-an-element-of-a-certain-value-with-filter) while trying to get my function to remove a specific element from the "unvisited" array, other sites kept saying to use splice but I couldn't seem to make it work, this site recommended using filter instead.
+
+This (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys) was for how to get the nodes out of said list
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
+
+
+
+
+
