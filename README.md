@@ -32,9 +32,9 @@ First, at line 12 there's a for loop that sets all the distances equal to Infini
 
 Next we enter a while at 17, this will run until there are no more nodes in the "unvisited" array, this also has a complexity of V
 
-After that we have a for loop that is once again based on the the number of nodes in the "unvisited" array, another V
+After that at line 22 we have a for loop that is once again based on the the number of nodes in the "unvisited" array, another V
 
-Finally I have a second for loop that is based on the edges, this one then will be a complexity of E
+Finally on line 33 I have a second for loop that is based on the edges, this one then will be a complexity of E
 
 So, the complexity is $\Theta(V(V + E) + V))$ = $\Theta(V^2 + VE + V)$
 
